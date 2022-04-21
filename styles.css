@@ -1,0 +1,54 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 35px;;
+    padding: 20px; 
+    list-style: none;
+}
+
+.nav ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 1.5em;
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+.banner {
+    background-image: url(./Images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner-p {
+    position: absolute;
+    line-height: 50px;
+    top: 40%;
+    left: 10%;
+    color: black;
+    font-size: 1.75em;
+}
+
+.quote {
+    text-align: center;
+    padding: 50px;;
+    font-size: 1.25em;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-around;
+}
